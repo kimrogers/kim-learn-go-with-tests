@@ -1,5 +1,7 @@
 package iteration
 
+// package main
+
 import (
 	"fmt"
 	"testing"
