@@ -9,3 +9,7 @@ func Repeat(char string, amt int) string {
 	}
 	return repeated
 }
+
+// func main() {
+// 	fmt.Println(strings.Index("   .     hello     I am Kim     ", "h"))
+// }
