@@ -7,3 +7,5 @@ require (
 	github.com/gomarkdown/markdown v0.0.0-20211212230626-5af6ad2f47df
 	github.com/gorilla/websocket v1.5.0
 )
+
+require github.com/scott-ainsworth/go-ascii v0.0.0-20151210013816-e2eb5175fb10 // indirect
