@@ -1,7 +1,7 @@
 package main
 
 import (
-	"unicode"
+	// "unicode"
 	"fmt"
 )
 
@@ -23,11 +23,11 @@ func IsIsogram(word string) bool {
 	fmt.Println(letterMap)
 
 	// loop through object, anything over 2?
-	for item := range letterMap {
-		if letterMap[item] > 1 && unicode.IsLetter(item) {
-			fmt.Printf(`this is a letter occuring more than once - %v`, item)
-		}
-	}
+	// for item := range letterMap {
+	// 	if letterMap[item] > 1 && unicode.IsLetter(item) {
+	// 		fmt.Printf(`this is a letter occuring more than once - %v`, item)
+	// 	}
+	// }
 
 	// if over 2 and is not a letter (ascii value? in built function?)
 	// true
